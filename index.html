@@ -865,6 +865,28 @@ function googleTranslateElementInit() {
       <script src="js/plugins.js"></script>
       <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5bpEs3xlB8vhxNFErwoo3MXR64uavf6Y&amp;callback=initMap"></script>
       <script src="js/init.js"></script>
+      	<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script type="text/javascript">
+    (function () {
+        var options = {
+            facebook: "102851592075087", // Facebook page ID
+            call_to_action: "Message us", // Call to action
+            position: "right", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+
+      <!-- Your customer chat code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="102851592075087"
+  theme_color="#7646ff">
+      </div>
    </body>
    <!-- Mirrored from marketifythemes.com/html/waxon/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Jul 2021 06:28:09 GMT -->
 </html>
