@@ -515,7 +515,7 @@ $('document').ready(function () {
         $("iframe").contents().find('.goog-te-menu2').css ('padding', '0px');
       
         // Change the padding of the languages
-        $("iframe").contents().find('.goog-te-menu2-item div').css('padding', '0px');
+        $("iframe").contents().find('.goog-te-menu2-item div').css('padding', '20px');
       
         // Change the width of the languages
         $("iframe").contents().find('.goog-te-menu2-item').css('width', '100%');
