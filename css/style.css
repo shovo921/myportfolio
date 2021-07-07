@@ -748,11 +748,12 @@ h6 {
         
 }
 .button1 {
-	width: 30%;
+	width: 100%;
+    text-align: center;
 	height: auto;
 	clear: both;
-	float: right;
-    margin-bottom: 10px;
+	float: left;
+    margin-bottom: 20px;
 }
 .button1 a {
 	text-decoration: none;
